@@ -1,3 +1,7 @@
+top:
+    pattern:  /
+    defaults: { _controller: ExampleUserRegistrationBundle:UserRegistration:input }
+
 ExampleUserRegistrationBundle:
     resource: "@ExampleUserRegistrationBundle/Controller/"
     type:     annotation
